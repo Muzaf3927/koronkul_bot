@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9c534d2e0478c3ee44f65b0d9ae7cec",
+    "content-hash": "16a3206b1fb94335b201d0338505f15b",
     "packages": [
         {
             "name": "brick/math",
@@ -2005,6 +2005,43 @@
                 }
             ],
             "time": "2024-12-08T08:18:47+00:00"
+        },
+        {
+            "name": "milly/laragram",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mirmuxsin/laragram.git",
+                "reference": "94c7afec9aa1f57a0cdac53f0bed552d6e833d1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mirmuxsin/laragram/zipball/94c7afec9aa1f57a0cdac53f0bed552d6e833d1b",
+                "reference": "94c7afec9aa1f57a0cdac53f0bed552d6e833d1b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Milly\\Laragram\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mirmuxsin",
+                    "email": "millykhamroev@gmail.com"
+                }
+            ],
+            "description": "Laravel package to develop telegram bot inside laravel project",
+            "support": {
+                "issues": "https://github.com/Mirmuxsin/laragram/issues",
+                "source": "https://github.com/Mirmuxsin/laragram/tree/1.0.4"
+            },
+            "time": "2022-03-24T16:33:00+00:00"
         },
         {
             "name": "monolog/monolog",
